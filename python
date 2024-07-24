@@ -1,0 +1,7 @@
+def add_or_subtract(n1, n2, operation):
+    if operation == "add":
+        return n1 + n2
+    elif operation == "subtract":
+        return n1 - n2
+    else:
+        return "Invalid operation. Please choose 'add' or 'subtract'."
